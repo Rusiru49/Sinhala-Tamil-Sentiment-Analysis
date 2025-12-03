@@ -14,17 +14,12 @@ venv/
 # VS Code
 .vscode/
 
-# OS stuff
+# OS
 .DS_Store
+Thumbs.db
 
-# Model & logs
+# Logs, checkpoints, datasets
 logs/
 checkpoints/
-runs/
-
-# Datasets
-data/raw/*
-data/processed/*
-
-# Streamlit
-streamlit_app/__pycache__/
+data/processed/
+hf_datasets_cache/

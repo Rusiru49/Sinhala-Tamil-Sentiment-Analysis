@@ -4,6 +4,6 @@ training:
   max_length: 128
   learning_rate: 2e-5
   epochs: 3
-  train_data: "data/processed/train.csv"
-  val_data: "data/processed/val.csv"
   save_dir: "checkpoints/"
+  eval_split_ratio: 0.1  # from HF train -> use 10% for validation
+  early_stopping: false
