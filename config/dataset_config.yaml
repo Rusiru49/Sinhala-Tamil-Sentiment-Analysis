@@ -4,7 +4,7 @@ dataset:
     - name: "theekshana/sinhala-news-sentiment-classification"
       split: "train"
       alias: "sinhala"
-      text_field: "text"
+      text_field: "comment"       # <- corrected
       label_field: "label"
     - name: "carant-ai/english_sentiment_dataset"
       split: "train"
