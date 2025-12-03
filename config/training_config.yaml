@@ -1,0 +1,9 @@
+training:
+  model_name: "xlm-roberta-base"
+  batch_size: 16
+  max_length: 128
+  learning_rate: 2e-5
+  epochs: 3
+  train_data: "data/processed/train.csv"
+  val_data: "data/processed/val.csv"
+  save_dir: "checkpoints/"

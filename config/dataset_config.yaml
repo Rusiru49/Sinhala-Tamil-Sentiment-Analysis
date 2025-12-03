@@ -1,0 +1,12 @@
+dataset:
+  input_path: "data/raw/kaggle_dataset.csv"
+  text_column: "text"
+  label_column: "label"
+  languages:
+    - "si"
+    - "ta"
+    - "en"
+  output_dir: "data/processed/"
+  train_split: 0.8
+  val_split: 0.1
+  test_split: 0.1
