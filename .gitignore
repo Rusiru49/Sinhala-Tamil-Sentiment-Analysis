@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS stuff
+.DS_Store
+
+# Model & logs
+logs/
+checkpoints/
+runs/
+
+# Datasets
+data/raw/*
+data/processed/*
+
+# Streamlit
+streamlit_app/__pycache__/
